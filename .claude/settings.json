@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flake8:*)",
+      "Bash(cat:*)",
+      "Bash(docker exec:*)",
+      "Bash(docker ps:*)",
+      "Bash(gh pr view:*)",
+      "Bash(git fetch:*)",
+      "Bash(git merge-base:*)",
+      "Bash(gh workflow:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(gh api:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(kubectl get:*)",
+      "Bash(kubectl config view:*)",
+      "Bash(python3:*)",
+      "Bash(uv run:*)",
+      "mcp__memory__search_nodes",
+      "Bash(gh issue *)"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "bypassPermissions"
+  },
+  "outputStyle": "default"
+}
